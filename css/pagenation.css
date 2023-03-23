@@ -1,0 +1,39 @@
+.pagenation-container{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+.pagenation-list{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid #ddd;
+}
+.pagenation-list li{
+    border-left: 1px solid #ddd;
+}
+.pagenation-list li.page-pre{
+    border-left: none;
+}
+.pagenation-list li>a{
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    padding: 6px 12px;
+    background-color: #fff;
+    color: #337ab7;
+}
+.pagenation-list li>a:hover{
+    background-color: #f9f9f9;
+}
+.pagenation-list .active>a{
+    cursor: default;
+    color: #ffffff;
+    background-color: #337ab7;
+    pointer-events: none;
+}
+.pagenation-list .disabled>a{
+    pointer-events: none;
+    color: #777;
+}
