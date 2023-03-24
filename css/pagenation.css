@@ -1,8 +1,8 @@
 .pagenation-container{
     display: flex;
     align-items: center;
-    margin-top: 50px;
     justify-content: center;
+    justify-content: flex-end;
 }
 .pagenation-list{
     display: flex;
